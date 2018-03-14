@@ -13,7 +13,6 @@ def main():
     user_guess_val = 0
     distance = 0
     rand_val_targ = rnd.randint(1, 100)
-    print("rand_val_targ = ", rand_val_targ)
 
     while(True):
         user_input = input("Please enter your guess : ")
